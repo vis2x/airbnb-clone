@@ -7,8 +7,15 @@ export default function App() {
     return (
         <div>
             <Navbar />
-            {/* <Hero /> */}
-            <Card />
+            <Hero />
+            <Card 
+                img="swimmer.png"
+                rating={5.0}
+                reviewCount={6}
+                country="England"
+                title="Life lessons with ..."
+                price={136}
+            />
         </div>
     )
 }
