@@ -82,3 +82,11 @@ section {
 .card--star {
   height: 14px;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: darkgray;
+}
